@@ -53,7 +53,7 @@
 
                                 <ul class="dropdown-menu">
                                     <li>
-                                        <a href="{{ route('user.logout') }}">
+                                        <a href="{{ route('admin.logout') }}">
                                             Logout
                                         </a>
                                     </li>
