@@ -1,12 +1,16 @@
 # laravel-5.5-multi-auth
 laravel multi auth starter, with user and admin 
 
-in the project root: run **composer install**
+
+
+# installation
+**composer install**
+
 then create the .env file with the database configurations
+**php artisan key:gen**
 
-then **php artisan key:gen** to generate the application key
+# migration
+**php artisan migrate**
 
-and **php artisan migrate**
-
-
+# Serve
 **php artisan serve** 
