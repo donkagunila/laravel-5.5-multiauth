@@ -12,6 +12,13 @@
 <script src="{{ asset('assets/js/material-dashboard.js?v=2.0.0') }}"></script>
 <!-- demo init -->
 <script src="{{ asset('assets/js/plugins/demo.js') }}"></script>
+
+
+
+<script src="{{ asset('assets/js/plugins/jquery.dataTables.js') }}"></script>
+
+  <script src="{{ asset('assets/js/plugins/dataTables.bootstrap4.js') }}"></script>
+<script src="{{ asset('assets/js/plugins/data-table.js') }}"></script>
 <script type="text/javascript">
     $(document).ready(function() {
 

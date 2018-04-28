@@ -28,7 +28,7 @@
                         &copy;
                         <script>
                             document.write(new Date().getFullYear())
-                        </script>
+                        </script> 
                     </div>
                 </div>
             </footer>

@@ -15,7 +15,7 @@
 
 
                     <li class="nav-item ">
-                        <a class="nav-link" href="">
+                        <a class="nav-link" href="{{ route('admin.users') }}">
                             <i class="material-icons">person</i>
                             <p>User management</p>
                         </a>
