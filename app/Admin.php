@@ -38,4 +38,9 @@ class Admin extends Authenticatable
     {
         return User::all();
     }
+
+    public static function findUser($username)
+    {
+        return User::where('username', '=' , $username)->get()->first();
+    }
 }

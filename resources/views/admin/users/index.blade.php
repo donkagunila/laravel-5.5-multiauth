@@ -270,7 +270,9 @@
                                             {{ $user->created_at}}
                                         </td>
                                         <td class="text-primary">
-                                            $36,738
+                                           <a href="{{ route('admin.user.edit', $user->username) }}">
+                                               <i class="fa fa-cog"></i>
+                                           </a>
                                         </td>
                                     </tr>
                                     
